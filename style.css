@@ -1,23 +1,74 @@
-*{
-    margin: 0px;
-    padding: auto;
+
+html, body {
+  margin: 0;
+  padding: 0;
 }
 
-.button-signup{
-    background-color: blue;
-    font-size: 16px;
-    color: aliceblue;
-    border-radius: 10px;
-    font-weight: bold;
-    top: 20px;
-    right: 20px;
-    padding: 10px 15px;
+.raleway-uniquifier {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
 }
-.nav-div{
+.hero{
+  background-image: url('../portfolio-website/images/Hero-bg.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  height: 790px;
+  margin: 0;
+  margin-top: 0px;
+  padding: 0;
+  
+}
+/* Nav style*/
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 150px;
     
 }
-.her0{
-    position: relative;
-    padding: auto;
-    height: 100vh;
+nav ul li {
+  list-style: none;
+}
+.nav li a {
+  text-decoration: none;
+}
+nav ul{
+  display: flex;
+}
+.nav-tittle{
+  font-weight: 800;
+  font-size: 45px;
+  color: rgba(78, 71, 255, 1);
+}
+.btn-primary{
+  background-color: rgba(78, 71, 255, 1);
+  color: white;
+  padding: 15px 30px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.banner-tittle{
+  font-size: 65px;
+  font-weight: bold;
+  color: rgba(37, 36, 50, 1);
+  text-align: center;
+  margin: 209px 268px 237px 268px;
+}
+.btn-banner{
+  background-color: rgba(78, 71, 255, 1);
+  color: white;
+  padding: 15px 30px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  position: absolute;
+  top: 60%;
+  left: 45%;
 }
