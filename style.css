@@ -1,0 +1,23 @@
+*{
+    margin: 0px;
+    padding: auto;
+}
+
+.button-signup{
+    background-color: blue;
+    font-size: 16px;
+    color: aliceblue;
+    border-radius: 10px;
+    font-weight: bold;
+    top: 20px;
+    right: 20px;
+    padding: 10px 15px;
+}
+.nav-div{
+    
+}
+.her0{
+    position: relative;
+    padding: auto;
+    height: 100vh;
+}
